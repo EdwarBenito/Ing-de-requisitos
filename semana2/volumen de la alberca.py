@@ -6,3 +6,4 @@ profundidad = float(input('ponga la profundidad de la alberca en mtrs: '))
 area_triangulo = anchura * largo_triangulo / 2
 area_rectangulo = anchura * largo_rectangulo
 volumen_alberca = (area_rectangulo * profundidad) + (area_triangulo * profundidad)
+print(f'el volumen de la alberca es{volumen_alberca}')
